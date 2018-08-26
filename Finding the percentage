@@ -1,0 +1,11 @@
+n= int(input())
+final={}
+for _ in range(n):
+    name, *line=(input().split())
+    score=list(map(float,line))
+    final[name]=score
+which_name= input()
+which_score=final[which_name]
+num= (sum(which_score)/len(which_score))
+output=('%.2f' % num)
+print(output)
