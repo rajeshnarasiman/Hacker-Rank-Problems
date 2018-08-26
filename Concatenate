@@ -1,0 +1,5 @@
+import numpy
+N, M, P= map(int, input().split())
+given= numpy.array([input().strip().split() for _ in range(N+M)], int)
+rshape=given.reshape((given.shape[0]),P)
+print(rshape)
