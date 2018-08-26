@@ -1,0 +1,7 @@
+word= 'oiojkn'
+word= word.casefold()
+reverse= reversed(word)
+if list(word)==list(reverse):
+    print("String is palindrome")
+else:
+    print("String is not a palindrome")
