@@ -1,0 +1,3 @@
+import numpy
+matrix=(numpy.array(input().split(),int))
+print (matrix.reshape(3,3))
