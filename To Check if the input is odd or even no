@@ -1,0 +1,7 @@
+#To Check if the input is odd or even no:
+num= input("ENTER A NO: ")
+mod= int(num) % 2
+if mod ==0:
+    print("No",num,"is even")
+else:
+    print("No",num,"is odd")
